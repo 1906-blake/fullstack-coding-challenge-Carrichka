@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*****************************
+    View Lists
+*****************************/
+.user-table table, .user-table tr, .user-table th, .user-table td{
+  border: 1px solid black;
+  padding: 20px;
+  font-size: 15px;
+}
+
+.user-table table {
+  width: 100%;
+  background: rgb(86, 114, 88);
+  color: rgb(255, 255, 255);
+}
