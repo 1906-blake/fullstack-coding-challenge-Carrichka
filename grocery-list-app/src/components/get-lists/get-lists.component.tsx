@@ -81,6 +81,7 @@ export class GetLists extends React.Component<{}, IState> {
                         </tbody>
                     </Table>
                 </Container>
+                <Form onSubmit={this.submit}>
                 <Container>
                     <Form>
                         <Label>Create a new list</Label>
@@ -93,6 +94,7 @@ export class GetLists extends React.Component<{}, IState> {
                         <Button className="btn-lg btn-primary" type="submit">Create</Button>
                     </Form>
                 </Container>
+                </Form>
             </div>
         )
     }
